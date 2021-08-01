@@ -13,16 +13,12 @@ public class Login extends BaseClass {
 
     @FindBy(xpath = "//ul[@class='userSection pushRight']/li[3]/div/p")
     WebElement login;
-
     @FindBy(id = "username")
     WebElement enterEmail;
-
     @FindBy(xpath = "//span[contains(text(),'Continue')]")
     WebElement continueButton;
-
     @FindBy(id = "password")
     WebElement enterPassword;
-
     @FindBy(xpath = "//button[@class='capText font16']")
     WebElement loginButton;
 
@@ -31,15 +27,16 @@ public class Login extends BaseClass {
     }
 
     public void loginToApplication() throws InterruptedException {
-        Thread.sleep(5000);
+
+        Thread.sleep(2000);
         login.click();
-        Thread.sleep(12000);
+        Thread.sleep(2000);
         enterEmail.sendKeys(username);
         Thread.sleep(3000);
         continueButton.click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         enterPassword.sendKeys(password);
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         loginButton.click();
         Thread.sleep(500);
     }

@@ -1,58 +1,14 @@
-%From list of cities:-> Mumbai, India
-&To list of cities:-> Bengaluru, India
-Departure month: July2021
-Departure date:-> 27
-Departure date:-> 28
-Departure date:-> 29
-Departure date:-> 30
-Departure date:-> 1
-Departure date:-> 2
+From city :-> Mumbai, India
+To city:-> Bengaluru, India
+Departure month: August2021
 Departure date:-> 3
-Departure date:-> 4
-Departure date:-> 5
-Departure date:-> 6
-Departure date:-> 7
-Departure date:-> 8
-Departure date:-> 9
-Departure date:-> 10
-Departure date:-> 11
-Departure date:-> 12
-Departure date:-> 13
-Departure date:-> 14
-Departure date:-> 15
-Departure date:-> 16
-Departure date:-> 17
-Departure date:-> 18
-Departure date:-> 19
-Departure date:-> 20
-Departure date:-> 21
-Departure date:-> 22
-Departure date:-> 23
-Departure date:-> 24
-Departure date:-> 25
-Departure date:-> 26
-Departure date:-> 27
-Departure date:-> 28
-Departure date:-> 29
-Departure date:-> 30
-Departure date:-> 31
-Return month: July2021
 Return month: August2021
-Return date:-> 1
-Return date:-> 2
-Return date:-> 3
-Return date:-> 4
-Return date:-> 5
-Return date:-> 6
-Return date:-> 7
-1
-2List of flights: Mumbai → Bengaluru Sat, 31 Jul
-
-Departure
-	Duration
-Arrival
-Price
-IndiGo
+Return date:-> 10
+S**********************************************************************************
+-List of departure flights without filter: 21
+S**********************************************************************************
+'Departure flight: Mumbai → Bengaluru
+Flights Name: IndiGo
 06:05
 Mumbai
 
@@ -64,7 +20,8 @@ Bengaluru
 
 ₹ 4,578
 9Use code BOOKNOW and get up to Rs. 1000 instant discount
-Vistara
+)----------------------------------------
+Flights Name: Vistara
 07:00
 Mumbai
 
@@ -76,7 +33,8 @@ Bengaluru
 
 ₹ 4,578
 9Use code BOOKNOW and get up to Rs. 1000 instant discount
-IndiGo
+)----------------------------------------
+Flights Name: IndiGo
 07:05
 Mumbai
 
@@ -88,43 +46,21 @@ Bengaluru
 
 ₹ 4,578
 9Use code BOOKNOW and get up to Rs. 1000 instant discount
-
-Air India
-09:30
-Mumbai
-
-01 h 40 m
-	Non stop
-11:10
-
-Bengaluru
-
-₹ 4,578
-AirAsia
-12:15
-Mumbai
-
-01 h 45 m
-	Non stop
-14:00
-
-Bengaluru
-
-₹ 4,578
-<Use code TRAVELTODAY and get up to Rs 1500 instant discount
-IndiGo
+)----------------------------------------
+Flights Name: IndiGo
 13:35
 Mumbai
 
-01 h 55 m
+01 h 50 m
 	Non stop
-15:30
+15:25
 
 Bengaluru
 
 ₹ 4,578
 9Use code BOOKNOW and get up to Rs. 1000 instant discount
-Vistara
+)----------------------------------------
+Flights Name: Vistara
 16:00
 Mumbai
 
@@ -136,19 +72,21 @@ Bengaluru
 
 ₹ 4,578
 9Use code BOOKNOW and get up to Rs. 1000 instant discount
-IndiGo
-16:30
+)----------------------------------------
+Flights Name: Air India
+16:45
 Mumbai
 
 01 h 45 m
 	Non stop
-18:15
+18:30
 
 Bengaluru
 
 ₹ 4,578
 9Use code BOOKNOW and get up to Rs. 1000 instant discount
-IndiGo
+)----------------------------------------
+Flights Name: IndiGo
 17:45
 Mumbai
 
@@ -160,30 +98,33 @@ Bengaluru
 
 ₹ 4,578
 9Use code BOOKNOW and get up to Rs. 1000 instant discount
-IndiGo
+)----------------------------------------
+Flights Name: IndiGo
 19:05
 Mumbai
 
-01 h 55 m
+02 h 05 m
 	Non stop
-21:00
+21:10
 
 Bengaluru
 
 ₹ 4,578
 9Use code BOOKNOW and get up to Rs. 1000 instant discount
-	Go First
-20:30
+)----------------------------------------
+Flights Name: Go First
+20:05
 Mumbai
 
 01 h 40 m
 	Non stop
-22:10
+21:45
 
 Bengaluru
 
 ₹ 4,578
-IndiGo
+)----------------------------------------
+Flights Name: IndiGo
 20:45
 Mumbai
 
@@ -195,31 +136,60 @@ Bengaluru
 
 ₹ 4,578
 9Use code BOOKNOW and get up to Rs. 1000 instant discount
-IndiGo
+)----------------------------------------
+Flights Name: IndiGo
 06:45
 Mumbai
 
-05 h 25 m
+05 h 15 m
 1 stop via Chennai
-12:10
+12:00
 
 Bengaluru
 
 ₹ 4,578
 9Use code BOOKNOW and get up to Rs. 1000 instant discount
-IndiGo
+)----------------------------------------
+Flights Name: IndiGo
 07:25
 Mumbai
 
-07 h 05 m
+06 h 50 m
 1 stop via Goa
-14:30
+14:15
 
 Bengaluru
 
 ₹ 4,578
 9Use code BOOKNOW and get up to Rs. 1000 instant discount
-IndiGo
+)----------------------------------------
+Flights Name: IndiGo
+07:20
+Mumbai
+
+06 h 55 m
+1 stop via Hyderabad
+14:15
+
+Bengaluru
+
+₹ 4,578
+9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: IndiGo
+09:30
+Mumbai
+
+06 h 05 m
+1 stop via Mangalore
+15:35
+
+Bengaluru
+
+₹ 4,578
+9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: IndiGo
 10:00
 Mumbai
 
@@ -230,7 +200,34 @@ Bengaluru
 Bengaluru
 
 ₹ 4,578
-IndiGo
+9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: IndiGo
+07:50
+Mumbai
+
+07 h 50 m
+1 stop via Chennai
+15:40
+
+Bengaluru
+
+₹ 4,578
+9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: Go First
+06:00
+Mumbai
+
+09 h 55 m
+1 stop via Kolkata
+15:55
+
+Bengaluru
+
+₹ 4,578
+)----------------------------------------
+Flights Name: IndiGo
 12:05
 Mumbai
 
@@ -242,19 +239,8 @@ Bengaluru
 
 ₹ 4,578
 9Use code BOOKNOW and get up to Rs. 1000 instant discount
-	Spicejet
-11:30
-Mumbai
-
-04 h 55 m
-1 stop via Goa
-16:25
-
-Bengaluru
-
-₹ 4,578
-;Use code SUPERDEAL and get up to Rs. 1500 instant discount
-IndiGo
+)----------------------------------------
+Flights Name: IndiGo
 10:35
 Mumbai
 
@@ -266,19 +252,8 @@ Bengaluru
 
 ₹ 4,578
 9Use code BOOKNOW and get up to Rs. 1000 instant discount
-IndiGo
-07:20
-Mumbai
-
-09 h 05 m
-1 stop via Hyderabad
-16:25
-
-Bengaluru
-
-₹ 4,578
-9Use code BOOKNOW and get up to Rs. 1000 instant discount
-IndiGo
+)----------------------------------------
+Flights Name: IndiGo
 13:00
 Mumbai
 
@@ -290,15 +265,287 @@ Bengaluru
 
 ₹ 4,578
 9Use code BOOKNOW and get up to Rs. 1000 instant discount
-IndiGo
-13:45
+)----------------------------------------
+Flights Name: Go First
+06:15
 Mumbai
 
-06 h 20 m
-1 stop via Hyderabad
-20:05
+12 h 30 m
+1 stop via Lucknow
+18:45
 
 Bengaluru
 
 ₹ 4,578
+)----------------------------------------
+S**********************************************************************************
+*List of return flights without filter: 21
+S**********************************************************************************
+% Return flight: Bengaluru → Mumbai
+Flights Name: AirAsia
+04:35
+
+Bengaluru
+
+01 h 45 m
+	Non stop
+06:20
+Mumbai
+
+₹ 4,653
+<Use code TRAVELTODAY and get up to Rs 1500 instant discount
+)----------------------------------------
+Flights Name: Go First
+05:45
+
+Bengaluru
+
+01 h 40 m
+	Non stop
+07:25
+Mumbai
+
+₹ 4,653
+)----------------------------------------
+Flights Name: IndiGo
+07:30
+
+Bengaluru
+
+01 h 45 m
+	Non stop
+09:15
+Mumbai
+
+₹ 4,653
 9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: Go First
+08:20
+
+Bengaluru
+
+01 h 40 m
+	Non stop
+10:00
+Mumbai
+
+₹ 4,653
+)----------------------------------------
+Flights Name: IndiGo
+08:30
+
+Bengaluru
+
+01 h 50 m
+	Non stop
+10:20
+Mumbai
+
+₹ 4,653
+9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: IndiGo
+10:25
+
+Bengaluru
+
+01 h 55 m
+	Non stop
+12:20
+Mumbai
+
+₹ 4,653
+9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: IndiGo
+16:35
+
+Bengaluru
+
+01 h 50 m
+	Non stop
+18:25
+Mumbai
+
+₹ 4,653
+9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: IndiGo
+17:50
+
+Bengaluru
+
+01 h 55 m
+	Non stop
+19:45
+Mumbai
+
+₹ 4,653
+9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: IndiGo
+18:50
+
+Bengaluru
+
+01 h 45 m
+	Non stop
+20:35
+Mumbai
+
+₹ 4,653
+9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: Go First
+20:45
+
+Bengaluru
+
+01 h 40 m
+	Non stop
+22:25
+Mumbai
+
+₹ 4,653
+)----------------------------------------
+Flights Name: IndiGo
+20:45
+
+Bengaluru
+
+01 h 50 m
+	Non stop
+22:35
+Mumbai
+
+₹ 4,653
+9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: Spicejet
+21:10
+
+Bengaluru
+
+01 h 40 m
+	Non stop
+22:50
+Mumbai
+
+₹ 4,653
+;Use code SUPERDEAL and get up to Rs. 1500 instant discount
+)----------------------------------------
+Flights Name: Go First
+22:00
+
+Bengaluru
+
+01 h 40 m
+	Non stop
+23:40
+Mumbai
+
+₹ 4,653
+)----------------------------------------
+Flights Name: IndiGo
+22:10
+
+Bengaluru
+
+01 h 35 m
+	Non stop
+23:45
+Mumbai
+
+₹ 4,653
+9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: Go First
+05:50
+
+Bengaluru
+
+04 h 20 m
+1 stop via Ahmedabad
+10:10
+Mumbai
+
+₹ 4,653
+)----------------------------------------
+Flights Name: IndiGo
+06:25
+
+Bengaluru
+
+04 h 15 m
+1 stop via Goa
+10:40
+Mumbai
+
+₹ 4,653
+9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: IndiGo
+07:10
+
+Bengaluru
+
+05 h 30 m
+1 stop via Chennai
+12:40
+Mumbai
+
+₹ 4,653
+9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: IndiGo
+07:15
+
+Bengaluru
+
+07 h 30 m
+1 stop via Hubli
+14:45
+Mumbai
+
+₹ 4,653
+9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: Spicejet
+09:50
+
+Bengaluru
+
+05 h 05 m
+1 stop via Goa
+14:55
+Mumbai
+
+₹ 4,653
+;Use code SUPERDEAL and get up to Rs. 1500 instant discount
+)----------------------------------------
+Flights Name: IndiGo
+11:00
+
+Bengaluru
+
+04 h 40 m
+1 stop via Hyderabad
+15:40
+Mumbai
+
+₹ 4,653
+9Use code BOOKNOW and get up to Rs. 1000 instant discount
+)----------------------------------------
+Flights Name: Go First
+09:20
+
+Bengaluru
+
+07 h 25 m
+1 stop via Patna
+16:45
+Mumbai
+
+₹ 4,653
+)----------------------------------------

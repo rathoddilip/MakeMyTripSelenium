@@ -3,6 +3,7 @@ package com.selenium.makemytrip.test;
 import com.selenium.makemytrip.base.BaseClass;
 import com.selenium.makemytrip.pages.Dashboard;
 import com.selenium.makemytrip.pages.Login;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class MakeMyTripTest extends BaseClass {
@@ -11,18 +12,24 @@ public class MakeMyTripTest extends BaseClass {
     public void login_to_application() throws InterruptedException {
         Login login=new Login(driver);
         login.loginToApplication();
+        String expectedUrl="https://www.makemytrip.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
     }
+
     @Test
-    public void round_trip_test() throws InterruptedException {
+    public void select_from_to_location() throws InterruptedException {
         Login login=new Login(driver);
         login.loginToApplication();
         Dashboard dashboard= new Dashboard(driver);
         dashboard.from_round_trip();
         dashboard.to_round_trip();
+        String expectedUrl="https://www.makemytrip.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
+
     }
 
     @Test
-    public void round_trip_select_date_test() throws InterruptedException {
+    public void select_departureDate_and_returnDate() throws InterruptedException {
         Login login=new Login(driver);
         login.loginToApplication();
         Dashboard dashboard= new Dashboard(driver);
@@ -30,6 +37,26 @@ public class MakeMyTripTest extends BaseClass {
         dashboard.to_round_trip();
         dashboard.select_departure_date();
         dashboard.select_return_date();
-        dashboard.clickSearch();
+        String expectedTitle="MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday";
+        Assert.assertEquals(driver.getTitle(),expectedTitle);
+    }
+
+    @Test
+    public void flight_booking_and_verify() throws InterruptedException {
+        Login login=new Login(driver);
+        login.loginToApplication();
+        Dashboard dashboard= new Dashboard(driver);
+        dashboard.from_round_trip();
+        dashboard.to_round_trip();
+        dashboard.select_departure_date();
+        dashboard.select_return_date();
+        dashboard.get_list_of_flights_Without_Filter();
+        dashboard.get_list_of_flights_after_Filter();
+        dashboard.selectFlight();
+        dashboard.verify_flight_price();
+        dashboard.verify_to_bottom_page_total_price();
+        String expectedUrl=driver.getCurrentUrl();
+        System.out.println(expectedUrl);
+        System.out.println(driver.getTitle());
     }
 }

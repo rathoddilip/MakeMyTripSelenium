@@ -12,20 +12,20 @@ public class BaseClass {
     public static WebDriver driver;
 
     @BeforeTest
-    public void setUp() {
+    public void setUp() throws InterruptedException {
 
         //handle browser level show notification pop window
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
-
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(options);
         driver.get("https://www.makemytrip.com/");
         driver.manage().window().maximize();
+        Thread.sleep(2000);
     }
 
-//    @AfterTest
-//    public void closeBrowser() {
-//        driver.quit();
-//    }
+    @AfterTest
+    public void closeBrowser() {
+        driver.quit();
+    }
 }
