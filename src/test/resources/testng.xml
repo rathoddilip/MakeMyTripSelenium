@@ -5,7 +5,6 @@
         <classes>
             <class name="com.selenium.makemytrip.test.MakeMyTripTest">
                 <methods>
-                    
                     <include name="flight_booking_and_verify"/>
                 </methods>
             </class>

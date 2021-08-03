@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class MakeMyTripTest extends BaseClass {
 
-    @Test(priority = 1)
+    @Test()
     public void login_to_application() throws InterruptedException {
         Login login=new Login(driver);
         login.loginToApplication();
@@ -16,7 +16,7 @@ public class MakeMyTripTest extends BaseClass {
         Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
     }
 
-    @Test(priority = 2)
+    @Test()
     public void select_from_to_location() throws InterruptedException {
         Login login=new Login(driver);
         login.loginToApplication();
@@ -28,7 +28,7 @@ public class MakeMyTripTest extends BaseClass {
 
     }
 
-    @Test(priority = 3)
+    @Test()
     public void select_departureDate_and_returnDate() throws InterruptedException {
         Login login=new Login(driver);
         login.loginToApplication();
@@ -41,7 +41,7 @@ public class MakeMyTripTest extends BaseClass {
         Assert.assertEquals(driver.getTitle(),expectedTitle);
     }
 
-    @Test(priority = 4)
+    @Test()
     public void flight_booking_and_verify() throws InterruptedException {
         Login login=new Login(driver);
         login.loginToApplication();
