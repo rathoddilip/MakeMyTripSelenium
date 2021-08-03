@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/arjun/Dilip/MakeMyTripProject">
+        <classes>
+            <class name="com.selenium.makemytrip.test.MakeMyTripTest">
+                <methods>
+                    
+                    <include name="flight_booking_and_verify"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

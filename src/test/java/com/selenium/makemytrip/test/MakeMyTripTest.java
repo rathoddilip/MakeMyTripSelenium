@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class MakeMyTripTest extends BaseClass {
 
-    @Test
+    @Test(priority = 1)
     public void login_to_application() throws InterruptedException {
         Login login=new Login(driver);
         login.loginToApplication();
@@ -16,7 +16,7 @@ public class MakeMyTripTest extends BaseClass {
         Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
     }
 
-    @Test
+    @Test(priority = 2)
     public void select_from_to_location() throws InterruptedException {
         Login login=new Login(driver);
         login.loginToApplication();
@@ -28,7 +28,7 @@ public class MakeMyTripTest extends BaseClass {
 
     }
 
-    @Test
+    @Test(priority = 3)
     public void select_departureDate_and_returnDate() throws InterruptedException {
         Login login=new Login(driver);
         login.loginToApplication();
@@ -41,7 +41,7 @@ public class MakeMyTripTest extends BaseClass {
         Assert.assertEquals(driver.getTitle(),expectedTitle);
     }
 
-    @Test
+    @Test(priority = 4)
     public void flight_booking_and_verify() throws InterruptedException {
         Login login=new Login(driver);
         login.loginToApplication();
@@ -55,8 +55,8 @@ public class MakeMyTripTest extends BaseClass {
         dashboard.selectFlight();
         dashboard.verify_flight_price();
         dashboard.verify_to_bottom_page_total_price();
-        String expectedUrl=driver.getCurrentUrl();
-        System.out.println(expectedUrl);
-        System.out.println(driver.getTitle());
+        System.out.println(driver.getCurrentUrl());
+        String expectedUrl="https://www.makemytrip.com/flight/search?itinerary=BOM-BLR-03/08/2021_BLR-BOM-10/08/2021&tripType=R&paxType=A-1_C-0_I-0&intl=false&cabinClass=E&ccde=IN&lang=eng";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
     }
 }

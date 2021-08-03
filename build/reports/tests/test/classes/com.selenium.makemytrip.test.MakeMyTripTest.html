@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1m59.84s</div>
+<div class="counter">2m32.43s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,107 +61,13 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
+<a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Tests</a>
-</li>
-<li>
-<a href="#tab2">Standard output</a>
+<a href="#tab1">Standard output</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="flight_booking_and_verify"></a>
-<h3 class="failures">flight_booking_and_verify</h3>
-<span class="code">
-<pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label class=&quot;makeFlex spaceBtwCenter appendBottom12 pointer &quot;&gt;...&lt;/label&gt; is not clickable at point (463, 756). Other element would receive the click: &lt;div class=&quot;OverlayGreyBg&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=92.0.4515.107)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'arjun-HP-Laptop-15-bs0xx', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-63-generic', java.version: '16.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: /tmp/.com.google.Chrome.W7Aafe}, goog:chromeOptions: {debuggerAddress: localhost:46715}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 85dda8b61476b939f733a81517e32381
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-	at com.selenium.makemytrip.pages.Dashboard.get_list_of_flights_after_Filter(Dashboard.java:201)
-	at com.selenium.makemytrip.test.MakeMyTripTest.flight_booking_and_verify(MakeMyTripTest.java:54)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.base/java.lang.Thread.run(Thread.java:831)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -172,13 +78,13 @@ Session ID: 85dda8b61476b939f733a81517e32381
 </tr>
 </thead>
 <tr>
-<td class="failures">flight_booking_and_verify</td>
-<td class="failures">1m59.84s</td>
-<td class="failures">failed</td>
+<td class="success">flight_booking_and_verify</td>
+<td class="success">2m32.43s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
-<div id="tab2" class="tab">
+<div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
 <pre>From city :-&gt; Mumbai, India
@@ -350,15 +256,6 @@ Bengaluru
 ₹ 4,578
 Use code BOOKNOW and get up to Rs. 1000 instant discount
 ----------------------------------------
-Flights Name: Go First
-06:00
-Mumbai
-09 h 55 m
-1 stop via Kolkata
-15:55
-Bengaluru
-₹ 4,578
-----------------------------------------
 Flights Name: IndiGo
 12:05
 Mumbai
@@ -367,7 +264,6 @@ Mumbai
 16:25
 Bengaluru
 ₹ 4,578
-Use code BOOKNOW and get up to Rs. 1000 instant discount
 ----------------------------------------
 Flights Name: IndiGo
 10:35
@@ -397,6 +293,16 @@ Mumbai
 18:45
 Bengaluru
 ₹ 4,578
+----------------------------------------
+Flights Name: IndiGo
+13:55
+Mumbai
+05 h 55 m
+1 stop via Hyderabad
+19:50
+Bengaluru
+₹ 4,578
+Use code BOOKNOW and get up to Rs. 1000 instant discount
 ----------------------------------------
 **********************************************************************************
 List of return flights without filter: 21
@@ -606,6 +512,241 @@ Bengaluru
 Mumbai
 ₹ 4,653
 ----------------------------------------
+**********************************************************************************
+List of departure flights with filter: 11
+**********************************************************************************
+Departure flight: Mumbai → Bengaluru
+Flights Name: IndiGo
+06:05
+Mumbai
+01 h 40 m
+Non stop
+07:45
+Bengaluru
+₹ 4,578
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Flights Name: Vistara
+07:00
+Mumbai
+01 h 50 m
+Non stop
+08:50
+Bengaluru
+₹ 4,578
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Flights Name: IndiGo
+07:05
+Mumbai
+01 h 55 m
+Non stop
+09:00
+Bengaluru
+₹ 4,578
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Flights Name: IndiGo
+13:35
+Mumbai
+01 h 50 m
+Non stop
+15:25
+Bengaluru
+₹ 4,578
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Flights Name: Vistara
+16:00
+Mumbai
+01 h 45 m
+Non stop
+17:45
+Bengaluru
+₹ 4,578
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Flights Name: Air India
+16:45
+Mumbai
+01 h 45 m
+Non stop
+18:30
+Bengaluru
+₹ 4,578
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Flights Name: IndiGo
+17:45
+Mumbai
+01 h 40 m
+Non stop
+19:25
+Bengaluru
+₹ 4,578
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Flights Name: IndiGo
+19:05
+Mumbai
+02 h 05 m
+Non stop
+21:10
+Bengaluru
+₹ 4,578
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Flights Name: Go First
+20:05
+Mumbai
+01 h 40 m
+Non stop
+21:45
+Bengaluru
+₹ 4,578
+----------------------------------------
+Flights Name: IndiGo
+20:45
+Mumbai
+01 h 50 m
+Non stop
+22:35
+Bengaluru
+₹ 4,578
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Flights Name: IndiGo
+06:45
+Mumbai
+05 h 15 m
+1 stop via Chennai
+12:00
+Bengaluru
+₹ 4,578
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+**********************************************************************************
+List of return flights without filter: 11
+**********************************************************************************
+ Return flight: Bengaluru → Mumbai
+Flights Name: AirAsia
+04:35
+Bengaluru
+01 h 45 m
+Non stop
+06:20
+Mumbai
+₹ 4,653
+Use code TRAVELTODAY and get up to Rs 1500 instant discount
+----------------------------------------
+Flights Name: Go First
+05:45
+Bengaluru
+01 h 40 m
+Non stop
+07:25
+Mumbai
+₹ 4,653
+----------------------------------------
+Flights Name: IndiGo
+07:30
+Bengaluru
+01 h 45 m
+Non stop
+09:15
+Mumbai
+₹ 4,653
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Flights Name: Go First
+08:20
+Bengaluru
+01 h 40 m
+Non stop
+10:00
+Mumbai
+₹ 4,653
+----------------------------------------
+Flights Name: IndiGo
+08:30
+Bengaluru
+01 h 50 m
+Non stop
+10:20
+Mumbai
+₹ 4,653
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Flights Name: IndiGo
+10:25
+Bengaluru
+01 h 55 m
+Non stop
+12:20
+Mumbai
+₹ 4,653
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Flights Name: IndiGo
+16:35
+Bengaluru
+01 h 50 m
+Non stop
+18:25
+Mumbai
+₹ 4,653
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Flights Name: IndiGo
+17:50
+Bengaluru
+01 h 55 m
+Non stop
+19:45
+Mumbai
+₹ 4,653
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Flights Name: IndiGo
+18:50
+Bengaluru
+01 h 45 m
+Non stop
+20:35
+Mumbai
+₹ 4,653
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Flights Name: Go First
+20:45
+Bengaluru
+01 h 40 m
+Non stop
+22:25
+Mumbai
+₹ 4,653
+----------------------------------------
+Flights Name: IndiGo
+20:45
+Bengaluru
+01 h 50 m
+Non stop
+22:35
+Mumbai
+₹ 4,653
+Use code BOOKNOW and get up to Rs. 1000 instant discount
+----------------------------------------
+Departure flight Price: 4578
+Return flight Price: 4653
+Verify departure price with bottom page departure price:true
+Verify return price with bottom page return price price:true
+bottom page departure price: 4578
+bottom page return price: 4653
+Total bottom page price: 9231
+Addition of Departure and return flight price :9231
+verifying total price of bottom page: true
+https://www.makemytrip.com/flight/search?itinerary=BOM-BLR-03/08/2021_BLR-BOM-10/08/2021&amp;tripType=R&amp;paxType=A-1_C-0_I-0&amp;intl=false&amp;cabinClass=E&amp;ccde=IN&amp;lang=eng
+MakeMyTrip
 </pre>
 </span>
 </div>
@@ -617,7 +758,7 @@ Mumbai
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.1</a> at 01-Aug-2021, 11:56:39 pm</p>
+<a href="http://www.gradle.org">Gradle 7.1</a> at 02-Aug-2021, 2:54:41 pm</p>
 </div>
 </div>
 </body>
