@@ -13,9 +13,9 @@ import java.util.List;
 public class Dashboard extends BaseClass {
 
     String departureMonth = "August2021";
-    String departureDate = "3";
+    String departureDate = "5";
     String returnMonth = "August2021";
-    String returnDate = "10";
+    String returnDate = "12";
 
     @FindBy(xpath = "//li[@data-cy='roundTrip']")
     WebElement roundTripButton;

@@ -8,38 +8,38 @@ import org.testng.annotations.Test;
 
 public class MakeMyTripTest extends BaseClass {
 
-    @Test()
-    public void login_to_application() throws InterruptedException {
-        Login login=new Login(driver);
-        login.loginToApplication();
-        String expectedUrl="https://www.makemytrip.com/";
-        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
-    }
-
-    @Test()
-    public void select_from_to_location() throws InterruptedException {
-        Login login=new Login(driver);
-        login.loginToApplication();
-        Dashboard dashboard= new Dashboard(driver);
-        dashboard.from_round_trip();
-        dashboard.to_round_trip();
-        String expectedUrl="https://www.makemytrip.com/";
-        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
-
-    }
-
-    @Test()
-    public void select_departureDate_and_returnDate() throws InterruptedException {
-        Login login=new Login(driver);
-        login.loginToApplication();
-        Dashboard dashboard= new Dashboard(driver);
-        dashboard.from_round_trip();
-        dashboard.to_round_trip();
-        dashboard.select_departure_date();
-        dashboard.select_return_date();
-        String expectedTitle="MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday";
-        Assert.assertEquals(driver.getTitle(),expectedTitle);
-    }
+//    @Test()
+//    public void login_to_application() throws InterruptedException {
+//        Login login=new Login(driver);
+//        login.loginToApplication();
+//        String expectedUrl="https://www.makemytrip.com/";
+//        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
+//    }
+//
+//    @Test()
+//    public void select_from_to_location() throws InterruptedException {
+//        Login login=new Login(driver);
+//        login.loginToApplication();
+//        Dashboard dashboard= new Dashboard(driver);
+//        dashboard.from_round_trip();
+//        dashboard.to_round_trip();
+//        String expectedUrl="https://www.makemytrip.com/";
+//        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
+//
+//    }
+//
+//    @Test()
+//    public void select_departureDate_and_returnDate() throws InterruptedException {
+//        Login login=new Login(driver);
+//        login.loginToApplication();
+//        Dashboard dashboard= new Dashboard(driver);
+//        dashboard.from_round_trip();
+//        dashboard.to_round_trip();
+//        dashboard.select_departure_date();
+//        dashboard.select_return_date();
+//        String expectedTitle="MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday";
+//        Assert.assertEquals(driver.getTitle(),expectedTitle);
+//    }
 
     @Test()
     public void flight_booking_and_verify() throws InterruptedException {
